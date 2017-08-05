@@ -1,0 +1,1 @@
+print "HACK "*input("Number: ")
