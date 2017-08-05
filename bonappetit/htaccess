@@ -1,0 +1,20 @@
+<FilesMatch "\.(htaccess|htpasswd|sqlite|db)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+<FilesMatch "\.phps$">
+ Order Allow,Deny
+ Allow from all
+</FilesMatch>
+
+<FilesMatch "suP3r_S3kr1t_Fl4G">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+
+# disable directory browsing
+Options -Indexes
+
+
