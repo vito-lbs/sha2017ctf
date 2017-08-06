@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+/* jshint esversion:6 */
+
+(function () {
+    'use strict';
+    const jssuck = require('../lib/jssuck.js');
+    jssuck.autorun(process.argv);
+})();
